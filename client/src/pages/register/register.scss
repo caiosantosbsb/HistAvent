@@ -1,6 +1,6 @@
 .register {
   height: 100vh;
-  background-color: rgb(193, 190, 255);
+  background-color: rgb(88, 204, 88);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -16,7 +16,7 @@
 
     .left {
       flex: 1;
-      background: linear-gradient(rgba(39, 11, 96, 0.5), rgba(39, 11, 96, 0.5)),
+      background: linear-gradient(rgba(77, 180, 63, 0.5), rgba(62, 161, 53, 0.5)),
         url("https://images.pexels.com/photos/4881619/pexels-photo-4881619.jpeg?auto=compress&cs=tinysrgb&w=1600")
           center;
       background-size: cover;
@@ -43,7 +43,7 @@
         padding: 10px;
         border: none;
         background-color: white;
-        color: rebeccapurple;
+        color: rgb(68, 184, 107);
         font-weight: bold;
         cursor: pointer;
       }
@@ -76,7 +76,7 @@
           width: 50%;
           padding: 10px;
           border: none;
-          background-color: #938eef;
+          background-color: #68cc81;
           color: white;
           font-weight: bold;
           cursor: pointer;

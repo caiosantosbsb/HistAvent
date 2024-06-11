@@ -31,15 +31,13 @@ const Login = () => {
     <div className="login">
       <div className="card">
         <div className="left">
-          <h1>Hello World.</h1>
+          <h1>Historia de Aventureiros</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum,
-            alias totam numquam ipsa exercitationem dignissimos, error nam,
-            consequatur.
+            Local de encontro de trilheiros e ciclistas em busca de aventuras.
           </p>
-          <span>Don't you have an account?</span>
+          <span>Não tem uma conta? Crie já!</span>
           <Link to="/register">
-            <button>Register</button>
+            <button>Registro</button>
           </Link>
         </div>
         <div className="right">

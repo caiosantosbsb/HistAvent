@@ -32,23 +32,21 @@ const Register = () => {
     <div className="register">
       <div className="card">
         <div className="left">
-          <h1>Lama Social.</h1>
+          <h1>História de Aventureiros</h1>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero cum,
-            alias totam numquam ipsa exercitationem dignissimos, error nam,
-            consequatur.
+            Local de encontro de trilheiros e ciclistas em busca de aventuras.
           </p>
-          <span>Do you have an account?</span>
+          <span>Não tem uma conta? Crie já!</span>
           <Link to="/login">
             <button>Login</button>
           </Link>
         </div>
         <div className="right">
-          <h1>Register</h1>
+          <h1>Registro</h1>
           <form>
             <input
               type="text"
-              placeholder="Username"
+              placeholder="Usuário"
               name="username"
               onChange={handleChange}
             />
@@ -60,18 +58,18 @@ const Register = () => {
             />
             <input
               type="password"
-              placeholder="Password"
+              placeholder="Senha"
               name="password"
               onChange={handleChange}
             />
             <input
               type="text"
-              placeholder="Name"
+              placeholder="Nome"
               name="name"
               onChange={handleChange}
             />
             {err && err}
-            <button onClick={handleClick}>Register</button>
+            <button onClick={handleClick}>Registro</button>
           </form>
         </div>
       </div>

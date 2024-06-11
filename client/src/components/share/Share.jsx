@@ -86,7 +86,7 @@ const Share = () => {
             </div>
             <div className="item">
               <img src={Friend} alt="" />
-              <span>Tag Friends</span>
+              <span>Tag Amigos</span>
             </div>
           </div>
           <div className="right">

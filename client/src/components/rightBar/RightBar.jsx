@@ -85,7 +85,7 @@ const RightBar = () => {
           </div>
         </div>
         <div className="item">
-          <span>Online Friends</span>
+          <span>Online Amigos</span>
           <div className="user">
             <div className="userInfo">
               <img
